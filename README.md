@@ -471,13 +471,3 @@ At minimum, the active Python environment needs support for:
 - `apify-client`
 
 Hermes itself has its own dependency set in the checked-out `hermes-agent/` project.
-
-## Recommended Next Steps
-
-If you want to make this production-leaning, the best next steps are:
-
-1. replace folder-based `gdrive` and `email` modes with real API integrations
-2. add a true feedback-improvement loop instead of logging only
-3. make Hermes orchestration more structured with explicit retries on malformed JSON
-4. cache successful benchmark results from Apify
-5. separate “actor ran live” from “benchmark price was derived live” even more explicitly in UI/reporting
