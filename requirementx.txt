@@ -1,0 +1,4 @@
+apify-client
+pdfplumber
+python-dotenv
+requests
